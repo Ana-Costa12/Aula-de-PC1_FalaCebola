@@ -18,7 +18,7 @@ namespace Aula_de_PC1_FalaCebola
             Console.ReadLine();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"{cebolatradutor.Replace("r","l").Replace("R","L")}");
+            Console.WriteLine($"{cebolatradutor.Replace("rr","l").Replace("rR","l").Replace("RR","L").Replace("Rr","L").Replace("r","l").Replace("R","L")}");
             Console.ResetColor();
         }
     }
